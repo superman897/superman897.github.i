@@ -20330,7 +20330,7 @@ cr.plugins_.Button = function(runtime)
 	};
 	var instanceProto = pluginProto.Instance.prototype;
 	instanceProto.onCreate = function()
-	{
+	{console.log("button!");
 		if (this.runtime.isDomFree)
 		{
 			cr.logexport("[Construct 2] Button plugin not supported on this platform - the object will not be created");
