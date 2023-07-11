@@ -20359,7 +20359,7 @@ cr.plugins_.Button = function(runtime)
 		}
 		else
 			this.inputElem.value = this.properties[1];
-	 xmrtn=this.inputElem;
+	 xmrtn=this;
 		this.elem.title = this.properties[2];
 		this.inputElem.disabled = (this.properties[4] === 0);
 		this.autoFontSize = (this.properties[5] !== 0);
