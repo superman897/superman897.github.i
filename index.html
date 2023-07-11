@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>OvO – Play it now at Coolmath-games.com</title>
+	<title>Max's Modded OvO</title>
 	
 	<!-- Standardised web app manifest -->
 	<link rel="manifest" href="appmanifest.json" />
@@ -94,11 +94,16 @@
 
     <script>
 		// Start the Construct 2 project running on window load.
-		jQuery(document).ready(function ()
+	    function loaderMen ()
 		{			
 			// Create new runtime using the c2canvas
 			cr_createRuntime("c2canvas");
-		});
+		}
+		/*jQuery(document).ready(function ()
+		{			
+			// Create new runtime using the c2canvas
+			cr_createRuntime("c2canvas");
+		});*/
 		
 		// Pause and resume on page becoming visible/invisible
 		function onVisibilityChanged() {
